@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>RHL Courier service - Track</title>
+
+        <!-- -- google translate -- -->
+
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+
+    <!-- === beginning of navbar === -->
+
+    <nav class="navbar">
+        <div class="title">RHL COURIER SERVICE</div>
+        <div class="links">
+            <ul>
+                <li><a href="http://127.0.0.1:5501/Index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/services.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5501/Track.html">Track</a></li>
+                <li><a href="http://127.0.0.1:5501/Contactus.html">Contact us</a></li>
+                <li><a href="http://127.0.0.1:5501/Reviews.html">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- == end of navbar == -->
+
+            <!-- --google translator-- -->
+            <div class="gtranslate" id="google_translate_element"></div> 
+
+            <!-- -- end of google translator-- -->
+
+    <!-- == beginning of body == -->
+
+    <section class="trackfullbody">
+        <section class="trackbanner">
+            <img class="trackimg" src="/assets/images/7.jpg" alt="">
+            <div class="tracktitle"><h1>TRACK SHIPMENT</h1></div>
+        </section>
+
+        <div class="trackbox">
+            <div class="lefttrackbox">
+                <div class="innerlefttrackbox">
+                    <form>
+                        <br><br>
+                        <span><h3>TRACK YOUR ITEM</h3></span>
+                          <input type="text" id="demo1"  placeholder="Enter Tracking Number">
+                          <span style="color: #828181; font-size: 18px;">Example; 4589300</span>
+                          <br><br>
+                          <button type="button" class="trackbutton" onclick="function1()">TRACK ITEM</button>
+                        </form>
+                        </div>
+                        
+                        
+                </div>
+
+            <div class="righttrackbox">
+                <div class="innerrighttrackbox">
+                    <span class="result1"><h4 id="ans1"></h4></span>
+                    <span class="result2"><b><p id="ans2"></p></b></span>
+                    <span class="result2"><p id="ans3"></p></span>
+                        
+                        
+                        
+                </div>
+            </div>
+
+            <script>
+
+                function function1() {
+                  A = parseInt(document.getElementById("demo1").value);
+                
+                  if (A=="3443085") {
+                    document.getElementById("ans1").innerHTML = "JULY 4, 2022";
+                    document.getElementById("ans2").innerHTML = "In Transit to Next Faculty";
+                    document.getElementById("ans3").innerHTML = "Your package is moving within the COURIER network and is on track to be delivered to its final destination. It is currently in transit to the net faculty";
+                  } else if (A=="3553085") {
+                    document.getElementById("ans1").innerHTML = "OCTOBER 10, 2022";
+                    document.getElementById("ans2").innerHTML = "In Transit to Next Faculty";
+                    document.getElementById("ans3").innerHTML = "Your package is moving within the COURIER network and is on track to be delivered to its final destination. It is currently in transit to the Arizona";
+                  } else {
+                    document.getElementById("ans1").innerHTML = "NO DATABASE FOUND";
+                    document.getElementById("ans2").innerHTML = ".";
+                    document.getElementById("ans3").innerHTML = ".";
+                  }
+                }
+                
+                  </script>
+
+                </div>
+
+                <footer>
+                    <div class="footerleft">
+                        <div class="footermenu">
+                            <ul class="footermenlist">
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/services.html">Services</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/track.html">Track</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/contactus.html">Contact us</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/reviews.html">Reviews</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                </footer> 
+        
+
+
+    </section>
+    
+
+    <!-- == end of body == -->
+
+    <script type="text/javascript"> 
+        function googleTranslateElementInit() { 
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, 
+                'google_translate_element'
+            ); 
+        } 
+    </script> 
+
+
+</body>
+</html>
