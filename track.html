@@ -21,11 +21,11 @@
         <div class="title">RHL COURIER SERVICE</div>
         <div class="links">
             <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="Track.html">Track</a></li>
-                <li><a href="Contactus.html">Contact us</a></li>
-                <li><a href="Reviews.html">Reviews</a></li>
+                <li><a href="http://127.0.0.1:5501/Index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/services.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5501/Track.html">Track</a></li>
+                <li><a href="http://127.0.0.1:5501/Contactus.html">Contact us</a></li>
+                <li><a href="http://127.0.0.1:5501/Reviews.html">Reviews</a></li>
             </ul>
         </div>
     </nav>
@@ -57,7 +57,7 @@
                           <button type="button" class="trackbutton" onclick="function1()">TRACK ITEM</button>
                         </form>
                         </div>
-                        
+
                         
                 </div>
 
@@ -67,6 +67,29 @@
                     <span class="result2"><b><p id="ans2"></p></b></span>
                     <span class="result2"><p id="ans3"></p></span>
                         
+                    <script>
+
+function function1() {
+    A = parseInt(document.getElementById("demo1").value);
+  
+    if (A=="3443085") {
+      window.location = "/trackresult1.html";
+    } else if (A=="3553085") {
+      window.location = "/trackresult2.html";
+    } else if (A=="3663085") {
+      window.location = "/trackresult3.html";
+    } else if (A=="3773085") {
+      window.location = "/trackresult4.html";
+    } else if (A=="3883085") {
+      window.location = "/trackresult5.html";
+    } else {
+      document.getElementById("ans1").innerHTML = "NO DATABASE FOUND";
+      document.getElementById("ans2").innerHTML = ".";
+      document.getElementById("ans3").innerHTML = ".";
+    }
+}
+
+                    </script>
                         
                         
                 </div>
@@ -74,31 +97,7 @@
 
             <script>
 
-                function function1() {
-                  A = parseInt(document.getElementById("demo1").value);
                 
-                  if (A=="5344535933") {
-                    document.getElementById("ans1").innerHTML = "DECEMBER 8, 2022";
-                    document.getElementById("ans2").innerHTML = "Package on hold";
-                    document.getElementById("ans3").innerHTML = "Your package has been intercepted at Mexico City International Airport, Mexico. Please contact our customer service for more details";
-                  } else if (A=="5930435933") {
-                    document.getElementById("ans1").innerHTML = "DECEMBER 8, 2022";
-                    document.getElementById("ans2").innerHTML = "Package on hold";
-                    document.getElementById("ans3").innerHTML = "Your package has been intercepted at Soekarno-Hatta International Airport, Indonesia. Please contact our customer service for more details";
-                  } else if (A=="93304832293") {
-                    document.getElementById("ans1").innerHTML = "DECEMBER 8, 2022";
-                    document.getElementById("ans2").innerHTML = "Package on hold";
-                    document.getElementById("ans3").innerHTML = "Your package has been intercepted. Please contact our customer service for more details";
-                  } else if (A=="3553085") {
-                    document.getElementById("ans1").innerHTML = "OCTOBER 10, 2022";
-                    document.getElementById("ans2").innerHTML = "In Transit to Next Faculty";
-                    document.getElementById("ans3").innerHTML = "Your package is moving within the COURIER network and is on track to be delivered to its final destination. It is currently in transit to the Arizona";
-                  } else {
-                    document.getElementById("ans1").innerHTML = "NO DATABASE FOUND";
-                    document.getElementById("ans2").innerHTML = ".";
-                    document.getElementById("ans3").innerHTML = ".";
-                  }
-                }
                 
                   </script>
 
@@ -108,11 +107,11 @@
                     <div class="footerleft">
                         <div class="footermenu">
                             <ul class="footermenlist">
-                                <li class="footerlistitem"><a href="index.html">Home</a></li>
-                                <li class="footerlistitem"><a href="services.html">Services</a></li>
-                                <li class="footerlistitem"><a href="track.html">Track</a></li>
-                                <li class="footerlistitem"><a href="contactus.html">Contact us</a></li>
-                                <li class="footerlistitem"><a href="reviews.html">Reviews</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/services.html">Services</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/track.html">Track</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/contactus.html">Contact us</a></li>
+                                <li class="footerlistitem"><a href="http://127.0.0.1:5501/reviews.html">Reviews</a></li>
                             </ul>
                         </div>
                     </div>
