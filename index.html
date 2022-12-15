@@ -212,22 +212,24 @@
         <div class="homebox6">
             <div class="contactusbox1">
                 <div class="leftcontactusbox">
-                    <form class="contactboxform">
+                    <form class="contactboxform" action="https://formsubmit.co/a640afc51efb8fbe67abd76845eed722" method="POST">
                         <br><br>
                         <div class="mb-3">
                           <label for="exampleInputname" class="form-label">Name</label>
-                          <input type="url" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+                          <input type="url" class="form-control" name="Fullname" id="exampleInputName1" placeholder="Enter Name">
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email address">
+                          <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email address">
                           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
                         <div>
                           <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your text here..."></textarea>
+                          <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Your text here..."></textarea>
                         </div>
                         <br>
+                        <input type="hidden" name="_next" value="https://rhlcourierservice.netlify.app/">
+                        <input type="hidden" name="_captcha" value="false">
                         <button type="submit" class="contactbutton">Send me a quote</button>
                       </form>
         
